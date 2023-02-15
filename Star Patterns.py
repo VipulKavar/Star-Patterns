@@ -207,7 +207,7 @@ print("--X--X--X--X--X--X--X--X--X--X--X--")
 print("# STAR PATTERN - 7")   # STAR PATTERN - 7
 #method-1
 for i in range(n):
-    print(f" " * ( (2*n)//2 - i -1), end='')
+    print(f" " * (n-i-1), end='')
     print("*" * (2*i+1), end="\n")
 
 #method-2
